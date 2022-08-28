@@ -66,6 +66,8 @@ packer.startup(
 
         use 'b3nj5m1n/kommentary'
 
+        use { "untitled-ai/jupyter_ascending.vim" }
+
         config = {
             display = {
                 open_fn = function()

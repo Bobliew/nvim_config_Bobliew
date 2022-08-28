@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "/home/bobliew/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
+  ["jupyter_ascending.vim"] = {
+    loaded = true,
+    path = "/home/bobliew/.local/share/nvim/site/pack/packer/start/jupyter_ascending.vim",
+    url = "https://github.com/untitled-ai/jupyter_ascending.vim"
+  },
   kommentary = {
     loaded = true,
     path = "/home/bobliew/.local/share/nvim/site/pack/packer/start/kommentary",

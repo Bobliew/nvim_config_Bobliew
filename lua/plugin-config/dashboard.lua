@@ -7,7 +7,7 @@ end
 db.custom_footer = {
   "",
   "",
-  "Cigarette Daydreams",
+  "github.com/Bobliew",
 }
 
 db.custom_center = {
@@ -57,7 +57,6 @@ db.custom_center = {
   --   action = "Telescopecope live_grep",
   -- },
 }
-
 
 db.custom_header = {
   [[]],

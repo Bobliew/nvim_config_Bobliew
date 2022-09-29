@@ -23,5 +23,6 @@ telescope.setup({
   },
 })
 
+
 -- telescope extensions
 pcall(telescope.load_extension, "env")

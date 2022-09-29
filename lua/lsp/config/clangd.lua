@@ -42,7 +42,7 @@ local default_capabilities = {
 return {
   default_config = {
     cmd = { 'clangd' },
-    filetypes = { 'c', 'cpp', 'objc', 'objcpp', 'cuda' },
+    filetypes = { 'c', 'cpp', 'objc', 'objcpp', 'cuda', 'proto' },
     root_dir = function(fname)
       return util.root_pattern(unpack(root_files))(fname) or util.find_git_ancestor(fname)
     end,
@@ -68,7 +68,7 @@ https://clangd.llvm.org/installation.html
   ```
 - clangd relies on a [JSON compilation database](https://clang.llvm.org/docs/JSONCompilationDatabase.html)
   specified as compile_commands.json, see https://clangd.llvm.org/installation#compile_commandsjson
-]],
+]]   ,
     default_config = {
       root_dir = [[
         root_pattern(

@@ -4,7 +4,6 @@ if not status then
   return
 end
 
-
 -- bufferline 配置
 -- https://github.com/akinsho/bufferline.nvim#configuration
 bufferline.setup({

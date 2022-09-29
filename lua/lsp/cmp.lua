@@ -19,7 +19,7 @@ cmp.setup({
   },
   -- 补全源
   sources = cmp.config.sources({
-    { name = "nvim_lsp"},
+    { name = "nvim_lsp" },
     -- For vsnip users.
     { name = "vsnip" },
 
@@ -35,6 +35,7 @@ cmp.setup({
 
   -- 快捷键设置
   mapping = require("keybindings").cmp(cmp),
+  formatting = require('lsp.ui').formatting
 })
 
 -- / 查找模式使用 buffer 源
@@ -45,6 +46,7 @@ cmp.setup.cmdline("/", {
   },
 })
 
+
 -- : 命令行模式中使用 path 和 cmdline 源.
 cmp.setup.cmdline(":", {
   mapping = cmp.mapping.preset.cmdline(),
@@ -54,4 +56,3 @@ cmp.setup.cmdline(":", {
     { name = "cmdline" },
   }),
 })
-
